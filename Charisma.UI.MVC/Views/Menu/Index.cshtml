@@ -1,0 +1,12 @@
+﻿@model IEnumerable<Charisma.Core.Menu.IMenuItem>
+@{
+    ViewBag.Title = "Menu";
+}
+
+@foreach (var item in Model)
+{
+    <li>
+        @item.Name
+    </li>
+}
+

@@ -8,4 +8,16 @@
   <ItemGroup>
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="Charisma.Data">
+      <HintPath>..\..\Charisma\Charisma.Data\bin\Debug\netcoreapp3.0\Charisma.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Charisma.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    <Reference Include="Charisma.Core">
+      <HintPath>..\..\Charisma\Charisma.Core\bin\Debug\netcoreapp3.0\Charisma.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Menu\" />
+  </ItemGroup>
 </Project>
